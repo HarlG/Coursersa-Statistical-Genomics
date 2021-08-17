@@ -457,6 +457,8 @@ mod3 = model.matrix(~ pdata_bm_cl$age + as.numeric(pdata_bm_cl$tissue.type))
 fit_limma2 = lmFit(edata_bm_cl, mod3)
 ```
 
+## Session Info
+
 ``` r
 sessionInfo()
 ```
